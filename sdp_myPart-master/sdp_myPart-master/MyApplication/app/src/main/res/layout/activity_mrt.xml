@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mrtpage"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22000000"
+    tools:context=".MRT">
+
+    <LinearLayout
+        android:id="@+id/headerMRT"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#3F51B5"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="60dp"
+            android:textStyle="bold"
+            android:text="สถานที่ท่องเที่ยวใกล้ MRT"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/text1MRT"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerMRT"
+        android:layout_marginTop="15dp"
+        tools:ignore="Orientation">
+
+        <TextView
+            android:id="@+id/suggestionbox"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="35dp"
+            android:completionThreshold="1"
+            android:textSize="15dp"
+            android:hint="Select Station" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/spinnerlayout"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/text1MRT"
+
+        android:background="#543F51B5"
+        tools:ignore="Orientation">
+
+
+        <Spinner
+            android:id="@+id/items"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+        </Spinner>
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@+id/headerMRT"
+        tools:ignore="UnknownId">
+
+        <RadioButton
+            android:id="@+id/marketCB"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Market" />
+
+        <RadioButton
+            android:id="@+id/restaurantCB"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="135dp"
+            android:layout_marginRight="135dp"
+            android:text="ร้านอาหาร" />
+
+        <RadioButton
+            android:id="@+id/natureCB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-65dp"
+            android:layout_marginLeft="100dp"
+            android:text="ธรรมชาติ" />
+
+        <RadioButton
+            android:id="@+id/shoppingCB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="100dp"
+            android:text="Shopping Mall" />
+
+        <RadioButton
+            android:id="@+id/othersCB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:text="อื่นๆ" />
+
+    </RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="18dp"
+        android:background="#BF03A9F4"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:text="ค้นหา" />
+
+    <LinearLayout
+        android:id="@+id/list_itemMRT"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_below="@+id/text1MRT"
+        android:layout_marginTop="108dp"
+        android:background="#E7E7E8"
+
+        tools:ignore="Orientation" >
+
+        <ListView
+            android:id="@+id/mrtLV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</RelativeLayout>

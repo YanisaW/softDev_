@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#2A000000"
+    >
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#AB000000"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="สถานที่ท่องเที่ยวใกล้มหาวิทยาลัย"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonPanel_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        >
+
+        <Button
+            android:id="@+id/buttonCU"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="#72000000"
+            android:textColor="#ffffff"
+            android:text="Chulalongkorn\nUniversity"
+            />
+
+        <Button
+            android:id="@+id/buttonKMITL"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="10dp"
+            android:background="#4A000000"
+            android:textColor="#ffffff"
+            android:text="KMITL"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonPanel_2"
+        android:layout_below="@+id/buttonPanel_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonTU"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="Thammasat\nUniversity"
+            android:background="#4A000000"
+            android:textColor="#ffffff"
+            />
+
+        <Button
+            android:id="@+id/buttonTHJP"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="#72000000"
+            android:textColor="#ffffff"
+            android:text="Thai-Nichi\nInstitute of\nTechnology"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/buttonPanel_2">
+
+        <Button
+            android:id="@+id/buttonSPU"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="#72000000"
+            android:textColor="#ffffff"
+            android:text="Sriprathum\nUniversity"
+            />
+
+        <Button
+            android:id="@+id/buttonMU"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="Mahidol\nUniversity"
+            android:background="#4A000000"
+            android:textColor="#ffffff"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

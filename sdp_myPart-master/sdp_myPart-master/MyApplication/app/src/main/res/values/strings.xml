@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="bts">
+        <item>หมอชิต</item>
+        <item>อารีย์</item>
+        <item>อนุสาวรีย์ชัยสมรภูมิ</item>
+        <item>พญาไท</item>
+        <item>ราชเทวี</item>
+        <item>สยาม</item>
+        <item>ชิดลม</item>
+        <item>เพลินจิต</item>
+        <item>อโศก</item>
+        <item>พร้อมพงษ์</item>
+        <item>ทองหล่อ</item>
+        <item>เอกมัย</item>
+        <item>พระโขนง</item>
+        <item>อ่อนนุช</item>
+        <item>อุดมสุข</item>
+        <item>บางนา</item>
+        <item>สนามกีฬาแห่งชาติ</item>
+        <item>ราชดำริ</item>
+        <item>ศาลาแดง</item>
+        <item>ช่องนนทรี</item>
+        <item>สุรศักดิ์</item>
+        <item>สะพานตากสิน</item>
+        <item>กรุงธนบุรี</item>
+        <item>วงเวียนใหญ่</item>
+
+    </string-array>
+
+    <string-array name="mrt">
+        <item>เตาปูน</item>
+        <item>กำแพงเพชร</item>
+        <item>สวนจตุจักร</item>
+        <item>พหลโยธิน</item>
+        <item>ลาดเพร้า</item>
+        <item>รัชดาภิเษก</item>
+        <item>ห้วยขวาง</item>
+        <item>ศูนย์วัฒนธรรมแห่งประเทศไทย</item>
+        <item>พระรามเก้า</item>
+        <item>เพชรบุรี</item>
+        <item>สุขุมวิท</item>
+        <item>ศูนย์การประชุมแห่งชาติสิริกิต</item>
+        <item>ลุมพินี</item>
+        <item>สีลม</item>
+        <item>สามย่าน</item>
+        <item>หัวลำโพง</item>
+
+    </string-array>
+
+    <string-array name="arl">
+        <item>หัวหมาก</item>
+        <item>พญาไท</item>
+
+    </string-array>
+
+    <string-array name="purple">
+        <item>คลองบางไผ่</item>
+        <item>สามแยกบางใหญ่</item>
+        <item>บางพลู</item>
+        <item>แยกนนทบุรี1</item>
+        <item>ศูนย์ราชการนนทบุรี</item>
+        <item>กระทรวงสาธารณสุข</item>
+        <item>วงศ์สว่าง</item>
+        <item>บางซ่อน</item>
+        <item>เตาปูน</item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

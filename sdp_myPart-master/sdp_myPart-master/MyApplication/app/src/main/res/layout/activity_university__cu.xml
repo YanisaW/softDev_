@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".university_CU">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#E91E6F"
+        tools:ignore="Orientation">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="130dp"
+            android:textStyle="bold"
+            android:text="เที่ยวใกล้ CU"
+            />
+
+        <Button
+            android:id="@+id/homeCU"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="-70dp"
+            android:layout_marginTop="10dp"
+            android:background="#D0F707FF"
+            android:textColor="#ffffff"
+            android:text="HOME"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/header"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:textSize="13dp"
+            android:text="รายการสถานที่ท่องเที่ยว"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="110dp"
+        android:background="#E7E7E8"
+        tools:ignore="Orientation">
+
+        <ListView
+            android:id="@+id/cuLV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</RelativeLayout>
